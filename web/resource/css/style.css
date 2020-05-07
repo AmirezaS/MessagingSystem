@@ -1,0 +1,103 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto Light', sans-serif;
+}
+body{
+    background: url("../img/mountain.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: auto;
+}
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #3b4652;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    opacity: .80;
+}
+.sidebar header {
+    background-color: #263238;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+.sidebar header a:hover {
+    color: #fff;
+}
+
+.sidebar a{
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+.sidebar a.active{
+    background-color: #27c2a5;
+    color: white;
+}
+.sidebar a:hover:not(.active){
+    background-color: #25a890!important;
+    color: white;
+}
+.navbar{
+
+    background-color: #263238;
+    line-height: 52px;
+}
+div.content{
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+@media screen and (max-width: 700px) {
+    .sidebar{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+}
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+.dropdown-menu{
+    background-color: #263238;
+}
+.card{
+    background-color: #3b4652;
+    opacity: .80;
+    color: white;
+    margin-top: 30px;
+}
+.container .btn-block{
+    opacity: .80;
+    color: white;
+}
+table{
+    color: white;
+}
+.main-section{
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0;
+}
+.modal-content{
+    background-color: #3b4652;
+    color: white;
+    opacity: .95;
+}
+

@@ -1,0 +1,51 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 16px;
+}
+body{
+    background: url("../img/mountain.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: auto;
+}
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content h1{
+    font-family: 'Roboto Light', sans-serif;
+    color: #3b4652;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 400%;
+    white-space: nowrap;
+}
+.btn{
+    border-radius: 9px;
+    font-family: 'Roboto Light', sans-serif;
+    color: #3b4652;
+    font-size: 100%;
+    padding: 10px 20px;
+    border: solid #3b4652 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover{
+    color: #fff;
+    border: solid #fff 3px;
+}
